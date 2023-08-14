@@ -1,1 +1,2 @@
-# JS_Base1
+# Aula declaração de variáveis:
+https://
