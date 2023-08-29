@@ -1,0 +1,35 @@
+body{
+    background-color: #bdbdbd;
+    font-size: large;
+    margin-left: 40%;
+    margin-top: 20%;
+    text-transform: uppercase;
+    font: 1em sans-serif;
+    
+}
+
+.form{
+    background-color: rgb(14, 101, 214);
+    border-radius: 15px;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    padding: 5px;
+}
+
+.submit{
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #bdbdbd;
+    color: black;
+    border: 1px solid green;
+}
