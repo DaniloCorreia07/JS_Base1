@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.botao{
+    padding: 10px 5px 10px 5px;
+    border-radius: 25px;
+}
+
+/* CORES */
+.azul{
+    background-color: rgb(97, 97, 199);
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color: rgb(46, 173, 46);
+}
