@@ -3,7 +3,7 @@ https://danilocorreia07.github.io/JS_Base1/variaveis/aulaum.html
 
 # Funções:
 
-https://danilocorreia07.github.io/JS_Base1/Aula3_JS/Aula3.html
+https://danilocorreia07.github.io/JS_Base1/JS_BASICO/Aula1.html
 
 # Forms:
 https://danilocorreia07.github.io/JS_Base1/forms/index.html
