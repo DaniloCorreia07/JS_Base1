@@ -17,3 +17,6 @@ https://danilocorreia07.github.io/JS_Base1/lacos_repeticao/index.html
 # Orienta:
 https://danilocorreia07.github.io/JS_Base1/orienta_obj/index.html
 
+# Orienta laços:
+https://danilocorreia07.github.io/JS_Base1/orienta_laco/index.html
+
