@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Forms</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>JavaScript é uma linguagem de programação orientada a objetos e, assim sendo, suas variáveis são dependentes dos objetos. Nas linguagens de programação orientadas a objetos, os programadores criam seus próprios objetos e tipos de variáveis. Um objeto é um tipo especial de variável que contém propriedades e métodos.</p>
                 </div>
               </div>
             </div>
@@ -31,7 +32,9 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                   <td><p>Var - Declara uma variável, opcionalmente, inicializando-a com um valor.</p></td>
+                    <td><p> Let -  Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.</p></td>
+                      <td><p>   Const - Declara uma constante de escopo de bloco, apenas de leitura.</p></td>
                 </div>
               </div>
             </div>
@@ -43,32 +46,27 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                 <p>Uma propriedade Javascript é uma característica de um objeto, frequentemente descrita como atributos associados à uma estrutura de dados.</p>
                 </div>
               </div>
             </div>
           </div>
           <h1>Cadastro</h1>
-          <form id="personForm" >
-              <div class="input-group mb-3">
-                <span class="input-group-text">Primeiro Nome</span>
-                <input type="text"  id="firstName" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text" >Segundo Nome</span>
-                <input type="text" id="lastName" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text">Cidade</span>
-                <input type="text" class="form-control" id="age" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-          <h1>Forms</h1>
+            <form id="personForm">
+                <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+                <br>
+                <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+                <br>
+                <input type="text" id="language" class="form-control" class="form-label" placeholder="Cidade">
+                <br>
+                <button type="submit" class="btn btn-success">Enviar</button>
+                <br>
+                <br>
+            </form> 
+          <h2>Dados</h2>
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">#</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Sobrenome</th>
                 <th scope="col">Cidade</th>
@@ -79,11 +77,11 @@
                 <!-- <th scope="row">1</th> -->
                 <td><p id="displayFirstName"></p></td>
                 <td><p id="displayLastName"></p></td>
-                <td><p id="displayAge"></p></td>
+                <td><p id="displayLanguage"></p></td>
               </tr>
             </tbody>
           </table>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </div>    
+     <script src="script.js"></script>
 </body>
 </html>
