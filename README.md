@@ -14,3 +14,6 @@ https://danilocorreia07.github.io/JS_Base1/calculo_imc/imc.html
 # Laços:
 https://danilocorreia07.github.io/JS_Base1/lacos_repeticao/index.html
 
+# Orienta:
+https://danilocorreia07.github.io/JS_Base1/orienta_obj/index.html
+
