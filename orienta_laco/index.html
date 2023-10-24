@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Programação orientado a objeto</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Orientação a Objetos no Javascript
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>JavaScript é uma linguagem de programação orientada a objetos e, assim sendo, suas variáveis são dependentes dos objetos. Nas linguagens de programação orientadas a objetos, os programadores criam seus próprios objetos e tipos de variáveis. Um objeto é um tipo especial de variável que contém propriedades e métodos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Variáveis Javascript também podem conter muitos valores
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   <td><p>Var - Declara uma variável, opcionalmente, inicializando-a com um valor.</p></td>
+                    <td><p> Let -  Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.</p></td>
+                      <td><p>   Const - Declara uma constante de escopo de bloco, apenas de leitura.</p></td>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Propriedades do objeto
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <p>Uma propriedade Javascript é uma característica de um objeto, frequentemente descrita como atributos associados à uma estrutura de dados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1>Cadastro</h1>
+            <form id="personForm">
+                <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+                <br>
+                <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+                <br>
+                <input type="text" id="language" class="form-control" class="form-label" placeholder="Cidade">
+                <br>
+                <div class="botoes">
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
+                <br>
+            </form> 
+          <h2>Dados</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Cidade</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr>
+                <!-- <th scope="row">1</th> -->
+                <td><p id="displayFirstName"></p></td>
+                <td><p id="displayLastName"></p></td>
+                <td><p id="displayLanguage"></p></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button" class="btn btn-warning">Limpar</button>
+    </div>    
+     <script src="script.js"></script>
+</body>
+</html>
