@@ -20,3 +20,8 @@ https://danilocorreia07.github.io/JS_Base1/orienta_obj/index.html
 # Orienta laços:
 https://danilocorreia07.github.io/JS_Base1/orienta_laco/index.html
 
+# Troca imagem:
+https://danilocorreia07.github.io/JS_Base1/troca_img/index.html
+
+
+
